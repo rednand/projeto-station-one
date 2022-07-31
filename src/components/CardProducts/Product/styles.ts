@@ -3,46 +3,30 @@ import styled from "styled-components";
 import { makeStyles, Theme } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme: Theme) => ({
-  card: { borderRadius: "15px", margin: "auto", marginTop: "15px" },
-  title: {
-    backgroundColor: "rgb(190, 114, 48)",
-    color: "rgb(255, 255, 255)",
+  card: {
+    borderRadius: "15px",
     margin: "auto",
-    display: "flex",
-    justifyContent: "center",
+    marginTop: "15px",
     padding: "10px",
-    fontWeight: "bold",
-    letterSpacing: "2px",
-    fontFamily: "Inter",
   },
-  address: {
-    color: "rgb(66, 66, 66)",
-    fontSize: "13px",
-    fontWeight: "bold",
-    minHeight: "16px",
+  arrowbackicon: {
+    margin: "20px 10px 0",
+    color: "#ffffff",
   },
-  description: {
-    color: "rgb(66, 66, 66)",
-    minHeight: "17px",
-  },
+  media: { position: "relative", zIndex: -1 },
 }));
 
-export const TitleContainer = styled.div`
-  background-color: "rgb(190, 114, 48)";
-  color: "rgb(255, 255, 255)";
-  height: "50px";
-  margin: "auto";
+export const ImageHeader = styled.img`
+  height: 195px;
+  opacity: 1;
+  width: 100%;
 `;
 
-export const ButtonProdutos = styled.div`
-  background-color: rgb(244, 161, 93);
-  width: 40%;
-  font-family: "Inter", sans-serif;
-  margin: 12px auto 20px;
-  border-radius: 300px;
+export const RedText = styled.div`
+  background-color: rgb(134, 41, 36);
+  height: 9vh;
+  position: sticky;
+  top: 0;
   display: flex;
-  justify-content: center;
-  padding: 10px;
-  font-size: 13px;
-  font-weight: 900;
+  box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px;
 `;

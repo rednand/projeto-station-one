@@ -2,13 +2,15 @@
     "data": [{
             "id": 1,
             "title": "Patissier",
-            "headercover": "./src/assets/imagens/cake.jpg",
+            "headercover": "./src/assets/imagens/cake2.jpg",
             "content": [{
+                "delivery": "Prontos para Entrega",
                 "produto": "Bolo",
                 "descricao": "asdcascas",
                 "preco": "R$ 10,00"
             }, {
-                "bolo": "Bolo",
+                "delivery": "Entregamos em 24h",
+                "produto": "Bolo",
                 "descricao": "asdcascas",
                 "preco": "R$ 10,00"
             }],
@@ -19,7 +21,7 @@
         {
             "id": 2,
             "title": "Cursos online",
-            "headercover": "./src/assets/imagens/cake.jpg",
+            "headercover": "./src/assets/imagens/cakeiro2.png",
             "content": [{
                 "produto": "Bolo",
                 "descricao": "asdcascas",

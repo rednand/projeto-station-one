@@ -4,37 +4,9 @@ import { makeStyles, Theme } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme: Theme) => ({
   card: { borderRadius: "15px", margin: "auto", marginTop: "15px" },
-  title: {
-    backgroundColor: "rgb(190, 114, 48)",
-    color: "rgb(255, 255, 255)",
-    margin: "auto",
-    display: "flex",
-    justifyContent: "center",
-    padding: "10px",
-    fontWeight: "bold",
-    letterSpacing: "2px",
-    fontFamily: "Inter",
-  },
-  address: {
-    color: "rgb(66, 66, 66)",
-    fontSize: "13px",
-    fontWeight: "bold",
-    minHeight: "16px",
-  },
-  description: {
-    color: "rgb(66, 66, 66)",
-    minHeight: "17px",
-  },
 }));
 
-export const TitleContainer = styled.div`
-  background-color: "rgb(190, 114, 48)";
-  color: "rgb(255, 255, 255)";
-  height: "50px";
-  margin: "auto";
-`;
-
-export const ButtonProdutos = styled.div`
+export const ButtonCard = styled.div`
   background-color: rgb(244, 161, 93);
   width: 40%;
   font-family: "Inter", sans-serif;
@@ -45,4 +17,29 @@ export const ButtonProdutos = styled.div`
   padding: 10px;
   font-size: 13px;
   font-weight: 900;
+`;
+export const TitleContainer = styled.div`
+  background-color: "rgb(190, 114, 48)";
+  color: "rgb(255, 255, 255)";
+  height: "50px";
+  margin: "auto";
+`;
+
+export const InputContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: -10px;
+`;
+
+export const Input = styled.input`
+  width: 80%;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20.5px;
+  border-color: rgb(189, 189, 189);
+  border-width: 1px;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 23px;
 `;
