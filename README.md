@@ -1,6 +1,6 @@
 # projeto-station-one
 
-### Teste criado para o projeto Station One de formação de 
+### Teste criado para o projeto Station One
 
 Para rodar o projeto é necessário rodas os comandos:
 
